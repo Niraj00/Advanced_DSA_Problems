@@ -67,7 +67,6 @@ class SpecialNode{
 };
 
 bool isPalindromeHelper(Node ** left, Node * right) {
-    // Has the rigght pointer reached the end of LL or not?
     if (right == NULL) {
         return true;
     }
